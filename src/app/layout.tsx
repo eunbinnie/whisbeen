@@ -1,7 +1,8 @@
+import '@/app/styles/globals.css';
+
 import type { Metadata } from 'next';
 
-import '../styles/globals.css';
-import { pretendard } from './fonts';
+import { pretendard } from '@/lib/fonts';
 
 export const metadata: Metadata = {
   title: 'Whisbeen',
